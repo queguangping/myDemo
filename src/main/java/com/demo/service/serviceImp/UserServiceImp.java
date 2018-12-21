@@ -14,7 +14,7 @@ public class UserServiceImp implements UserService {
     private UserMapper userMapper;
 
     public User getUserInfo() {
-        User user = userMapper.selectByPrimaryKey("1");
+        User user = userMapper.selectByName("王五");
         return user;
     }
 

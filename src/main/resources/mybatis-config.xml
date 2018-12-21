@@ -1,0 +1,7 @@
+<configuration>
+    <!--开启下划线"_"与驼峰命名规则自动转换-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--其他配置-->
+</configuration>
